@@ -1,86 +1,139 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: "/", key: "quienes_somos", label: "¿Quienes Somos?" },
+  { href: "/", key: "ceo", label: "Ejecutivo" },
+  { href: "/", key: "cfo", label: "Finanzas" },
+  { href: "/", key: "coo", label: "Operaciones" },
+  { href: "/", key: "cto", label: "Tecnología" },
+  { href: "/", key: "cmo", label: "Marketing" },
+  { href: "/", key: "cll", label: "Legal" },
+  { href: "/", key: "contacto", label: "Contacto" },
 ];
 
 // CAMP SECTION
 export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
+  "/person-1.png",
+  "/person-2.png",
+  "/person-3.png",
+  "/person-4.png",
 ];
 
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
-    icon: '/map.svg',
-    variant: 'green',
+    title: "Flujos de trabajo",
+    icon: "/map.svg",
+    variant: "green",
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      "OnlyFangs integra datos de usuarios para mejorar continuamente. Desarrollo tecnológico actualizado según retroalimentación, operaciones coordinadas, estrategias de marketing efectivas, y análisis constante para eficiencia operativa y atención al cliente excepcional.",
+    link: "https://docs.google.com/document/d/1Pl1haX76_SGOE4CF9cwBPTm4eHaBaXIi7zM4QC7kI1c/edit",
   },
   {
-    title: 'Set an adventure schedule',
-    icon: '/calendar.svg',
-    variant: 'green',
+    title: "Cronogramas",
+    icon: "/calendar.svg",
+    variant: "green",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Los cronogramas de trabajo comprenden un tiempo de al rededor de un año para la realización efectiva de las tareas planteadas por cada departamento y conectados a los procesos de la organización.",
+    link: "/",
   },
   {
-    title: 'Technology using augment reality',
-    icon: '/tech.svg',
-    variant: 'green',
+    title: "Herramientas",
+    icon: "/tech.svg",
+    variant: "green",
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      "Una guía comparativa de las herramientas analizadas para la implementación de los procesos correspondientes a la empresa y a su organiación, diseño y desarrollo",
+    link: "/",
   },
   {
-    title: 'Many new locations every month',
-    icon: '/location.svg',
-    variant: 'orange',
+    title: "Modelo de funcionamiento",
+    icon: "/location.svg",
+    variant: "orange",
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      "OnlyFangs opera mediante una plataforma digital que conecta a dueños de mascotas con servicios de veterinaria, peluquería y más. Desarrolla, coordina y mejora continuamente, centrando esfuerzos en eficiencia, calidad y satisfacción del usuario.",
+    link: "/",
+  },
+];
+
+export const DEPARTAMENTOS = [
+  {
+    departamento: "Ejecutivo",
+    funcionLink:
+      "https://docs.google.com/document/d/1huLfwUi835bws3Yo3LjR9lc7LQhKWzzEntxzopMWE4I/edit",
+    actividadLink:
+      "https://docs.google.com/document/d/1huLfwUi835bws3Yo3LjR9lc7LQhKWzzEntxzopMWE4I/edit",
+  },
+  {
+    departamento: "Finanzas",
+    funcionLink:
+      "https://docs.google.com/document/d/1oEzb4nzFfD8eXDjvKsfs7_Vv5JaYIWNvy7HalNefGjo/edit",
+    actividadLink:
+      "https://docs.google.com/document/d/1skTrhXd5maRg9SXlP-KqBSwL-7u1UCv8n1InLzfQibM/edit",
+  },
+  {
+    departamento: "Operaciones",
+    funcionLink:
+      "https://docs.google.com/file/d/1weBoqCeziIZQHza7lUUCIzW4QqCz1qc2/edit?usp=docslist_api&filetype=msword",
+    actividadLink:
+      "https://docs.google.com/file/d/1weBoqCeziIZQHza7lUUCIzW4QqCz1qc2/edit?usp=docslist_api&filetype=msword",
+  },
+  {
+    departamento: "Tecnología",
+    funcionLink:
+      "https://docs.google.com/document/d/1-qJcNpPYe3qs4Q_V0uhScXB9uNVcr2EekjZ5WPZJYAY/edit",
+    actividadLink:
+      "https://docs.google.com/document/d/1ugO5aOt7zR4nRQVq_gMwdrP3fuVI9d3k53Xjyu1RV3A/edit",
+  },
+  {
+    departamento: "Marketing",
+    funcionLink:
+      "https://docs.google.com/document/d/1AbZvX83E43zWchMU7VoEzJoyNYtyQYom-aaExvuPc4o/edit",
+    actividadLink:
+      "https://docs.google.com/document/d/1AbZvX83E43zWchMU7VoEzJoyNYtyQYom-aaExvuPc4o/edit",
+  },
+  {
+    departamento: "Legal",
+    funcionLink:
+      "https://docs.google.com/document/d/17uD-B2SvXzl9WxR1yg1NMMHq3j8B4HnNb0HDp-nF5Qs/edit",
+    actividadLink:
+      "https://docs.google.com/document/d/1QDtWiS-takD27tf5FszEnl45EUnda2B9ZBgI2yOKr_Y/edit",
   },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
+    title: "Departamentos",
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
+      "Home",
+      "Ejecutivo",
+      "Finanzas",
+      "Operaciones",
+      "Tecnología",
+      "Marketing",
+      "Legal",
     ],
   },
   {
-    title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    title: "Nuestra presencia",
+    links: ["La Paz", "Santa Cruz", "Cochabamba", "Oruro", "Tarija", "Potosí"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
+  title: "Contacta",
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: "Administrador oficial", value: "123-456-7890" },
+    { label: "Correo", value: "onlyfangs@newcp.com" },
   ],
 };
 
 export const SOCIALS = {
-  title: 'Social',
+  title: "Social",
   links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
+    "/facebook.svg",
+    "/instagram.svg",
+    "/twitter.svg",
+    "/youtube.svg",
+    "/wordpress.svg",
   ],
 };
